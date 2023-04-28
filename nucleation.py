@@ -13,6 +13,7 @@ Helper functions:
 
     rotate_coord -- Rotate point (x,y) about the origin by a given angle.
     velocity_verlet -- Perform a single step of velocity Verlet integration.
+   
 """
 
 from typing import Callable, List, Tuple

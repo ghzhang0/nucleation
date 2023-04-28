@@ -1,3 +1,21 @@
+
+"""
+Plots particle positions and extracts coordination numbers.
+
+Functions:
+
+    plot_cone_crys -- Plot particle positions on a conic surface.
+    format_plot -- Format plot of unrolled conic surface.
+    plot_coordination -- Plot coordination number of each particle.
+    get_image_pts -- Return original points and periodic image points of a conic crystal.
+
+Helper functions:
+
+    angl -- Filter left-rotated image points that overlap with original points.
+    angr -- Filter right-rotated image points that overlap with original points.
+
+"""
+
 import matplotlib
 from matplotlib import pyplot as plt
 from scipy.spatial import Voronoi, voronoi_plot_2d
